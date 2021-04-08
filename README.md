@@ -3,7 +3,7 @@
 |Week|Date|Content|Assignment|README|
 :----------------------:|:--------------------:|:--------------------:|:----------------:|:----------------:|
 |`1주차`|03/31|OT|
-|`2주차`|04/07|WebStargram 프로필 만들기|[Week 2]( https://github.com/likelion-ssu-9th/KimYoonSeo/tree/main/week_2)|[📎📓]( https://github.com/likelion-ssu-9th/KimYoonSeo/blob/main/week_2/README_WEEK2.md)
+|`2주차`|04/07|WebStargram 프로필 만들기|[Week 2]( https://github.com/likelion-ssu-9th/KimYoonSeo/tree/main/week_2)|[📎📓]( https://github.com/likelion-ssu-9th/KimYoonSeo/blob/main/README/README_WEEK2.md)
 |`3주차`|04/14|
 |`4주차`|05/05|
 |`5주차`|05/12|
