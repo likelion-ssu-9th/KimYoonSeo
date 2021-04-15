@@ -1,0 +1,89 @@
+body{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 70px;
+    background-color: rgb(249, 249, 249);
+}
+
+.joinLetter{
+    font-size: 20px;
+    color: grey;
+    text-align: center;
+}
+
+hr{
+    color:grey;
+    width: 75%;
+    border: 0.05em solid rgb(200, 200, 200);
+    
+}
+
+.signUp_container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 400px;
+    padding: 70px 0px;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    border: 0.1px solid rgb(200, 200, 200);
+}
+
+input{
+    position: relative;
+    top: 30px;
+
+    width: 70%; 
+    height: 40px;
+    padding: 0 10px;
+    border: 0.1px solid  rgb(200, 200, 200);
+    border-radius: 3px;
+    outline-style: none; 
+    -moz-appearance: none; 
+    appearance: none;
+    background-color: rgb(249, 249, 249);;
+}
+
+.instagramText{
+    position: relative;
+    top: -10px;
+}
+
+#signUpButton{
+    border : none;
+    border-radius: 3px;
+    height: 40px;
+    background-color: rgb(172, 214, 251); 
+
+    width: 75%;
+    margin: 40px;
+    color : white
+}
+
+.joinInsta{
+
+    position: relative;
+    height: 50px;
+    width: 400px;
+
+    background-color: rgb(255, 255, 255);
+    border: 0.05em solid rgb(200, 200, 200);
+    top: 20px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto 0;
+}
+
+.joinBtn{
+    border: none;
+    background-color: white;
+    color: rgb(84, 161, 247);
+    font-size: 15px;
+}

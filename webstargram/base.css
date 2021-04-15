@@ -2,7 +2,6 @@ header{
     position: relative;
     border-bottom: 0.5px solid rgb(209, 209, 209);
     height: 40px;
-    justify-content: space-between;
     display: flex;
     flex-direction: row;
 }
