@@ -1,0 +1,23 @@
+header{
+    position: relative;
+    border-bottom: 0.5px solid rgb(209, 209, 209);
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left_box, .right_box{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.faviconFrame, .myInfo, .heart{
+    width: 20px;
+    margin: 15px;
+    
+}
+.logo{
+    width: 90px;
+}
