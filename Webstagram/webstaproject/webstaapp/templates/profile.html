@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
+        {% load static %}
         <meta charset="utf-8">
         <title>프로필 • Instagram</title>
-        <link href="profile.css" rel="stylesheet" type="text/css"/>
-        <link rel = "icon" href="../img/icon.png">
+        <link href="{% static 'profile.css'%}" rel="stylesheet" type="text/css"/>
+        <link rel = "icon" href="{% static 'img/icon.png'%}">
     </head>
     <body>
         <header class = "container">
             <div class = "profileBox">
-                <button class = "profile" type="button"><img class = "profileImage" src="../img/ssu_likelion_logo_150x150.png"></button>
+                <button class = "profile" type="button"><img class = "profileImage" src="{% static 'img/ssu_likelion_logo_150x150.png'%}"></button>
             </div>
             <div class = "user">
                 <h1>LikeLionSSU</h1>
@@ -28,21 +29,21 @@
         </header>
         <main>
             <div>
-                <img src="../img/lionface.png"/>
+                <img src="{% static 'img/lionface.png'%}"/>
                 <ul aria-hidden="true">
                     <li>Likes : 0 </li>
                     <li>Comments : 0 </li>
                 </ul>
             </div>
             <div>
-                <img src="../img/lionface.png"/>
+                <img src="{% static 'img/lionface.png'%}"/>
                 <ul aria-hidden="true">
                     <li>Likes : 0 </li>
                     <li>Comments : 0 </li>
                 </ul>
             </div>
             <div>
-                <img src="../img/lionface.png"/>
+                <img src="{% static 'img/lionface.png'%}"/>
                 <ul aria-hidden="true">
                     <li>Likes : 0</li>
                     <li>Comments : 0 </li>

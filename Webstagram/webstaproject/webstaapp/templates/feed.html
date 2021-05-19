@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
+        {% load static %}
         <meta charset="UTF-8">
         <title>Instagram</title>
-        <link href="background.css" rel = "stylesheet" type="text/css"/>
-        <link href="feed.css" rel = "stylesheet" type="text/css"/>
-        <link rel = "icon" href="../img/icon.png">
+        <link href="{% static 'background.css'%}" rel = "stylesheet" type="text/css"/>
+        <link href="{% static 'feed.css'%}" rel = "stylesheet" type="text/css"/>
+        <link rel = "icon" href="{% static 'img/icon.png'%}">
     </head>
 <body>
     <div class main>
@@ -15,18 +16,18 @@
                     <div class = "userNickName">LikeLionSSU</div>
                 </header>
                 <div class = "cardImage">
-                    <img src = "../img/ssu_likelion_logo.png" alt = "sample">
+                    <img src = "{% static 'img/ssu_likelion_logo.png'%}" alt = "sample">
                 </div>
 
                 <div class = "cardInfo">
                     <div class = "infoLeft">
-                        <img class = "feedImg" src = "../img/liked.png" alt="좋아요"/>
-                        <img class = "feedImg" src = "../img/comment.png" alt="좋아요"/>
-                        <img class = "feedImg" src = "../img/upload.png" alt="좋아요"/>
+                        <img class = "feedImg" src = "{% static 'img/liked.png'%}" alt="좋아요"/>
+                        <img class = "feedImg" src = "{% static 'img/comment.png'%}" alt="좋아요"/>
+                        <img class = "feedImg" src = "{% static 'img/upload.png'%}" alt="좋아요"/>
                     </div>
                     <div class = "infoRight">
-                        <img class = "feedImg" src = "../img/edit.png" alt="수정"/>
-                        <img class = "feedImg" src = "../img/delete.png" alt="삭제"/>
+                        <img class = "feedImg" src = "{% static 'img/edit.png'%}" alt="수정"/>
+                        <img class = "feedImg" src = "{% static 'img/delete.png'%}" alt="삭제"/>
                     </div>
                 </div>
                 <div class = "comment_form">
