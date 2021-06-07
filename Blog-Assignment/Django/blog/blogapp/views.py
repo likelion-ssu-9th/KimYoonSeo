@@ -36,4 +36,4 @@ def edit(request,id):
         return redirect('detail', blog.id)
 
     else:
-        return render(request, 'edit.html')
+        return render(request, 'edit.html',{'blog':blog})
