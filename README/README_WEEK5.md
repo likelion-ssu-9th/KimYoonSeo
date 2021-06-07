@@ -1,6 +1,6 @@
 <h1> week5 </h1>
 
-#### 🛠가상 환경 만들기 & 실행하기
+#### 🛠가상 환경 만들기 & 실행하기 (Mac 기준)
 <pre>
 python3 -m venv myvenv
 source myvenv/bin/activate
@@ -13,7 +13,7 @@ pip install django
 
 #### 🐙 서버 실행하기
 <pre>
-python manage.py runserver
+python3 manage.py runserver
 </pre>
 
 #### 과제
