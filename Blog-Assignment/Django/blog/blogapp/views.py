@@ -25,3 +25,15 @@ def create(requset):
     new_blog.save()
     return redirect('detail', new_blog.id)
 
+def edit(request,id):
+    blog = Blog.objects.get(id = id)
+
+    if request.method == "POST":
+        blog.title = request.POST['title']
+        blog.body = request.POST['body']
+        blog.pub_date = timezone.datetime.now()
+        blog.save()
+        return redirect('detail', blog.id)
+
+    else:
+        return render(request, 'edit.html')

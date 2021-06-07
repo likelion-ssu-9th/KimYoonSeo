@@ -14,5 +14,6 @@
         <p>제목 : {{blog.title}}</p>
         <p>날짜 : {{blog.pub_date}}</p>
         <p>본문 : {{blog.body}}</p>
+        <a href="{% url 'edit' blog.id %}">수정하기 </a>
     </body>
 </html>
