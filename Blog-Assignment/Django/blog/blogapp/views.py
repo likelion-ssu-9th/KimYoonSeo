@@ -37,3 +37,8 @@ def edit(request,id):
 
     else:
         return render(request, 'edit.html',{'blog':blog})
+
+def delete(request, id):
+    blog = Blog.objects.get(id = id)
+    blog.delete()
+    return redirect('/')
