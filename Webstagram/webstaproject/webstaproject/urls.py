@@ -20,7 +20,7 @@ from webstaapp.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',login,name="login"),
-    path('signUp',signUp,name = "signUp"),
+    path('signUp/',signUp,name = "signUp"),
     path('profile/',profile,name="profile"),
     path('feed/',feed,name="feed")
 ]
