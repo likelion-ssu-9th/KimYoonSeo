@@ -17,10 +17,10 @@
             <input type = "text" class = "userSignUp" placeholder="성명">
             <input type = "text" class = "userSignUp" placeholder="사용자 이름">
             <input type = "password" class = "userSignUp" placeholder="비밀번호">
-            <button id = "signUpButton" disabled>가입</button>
+            <button id = "signUpButton" disabled><a href="{%url 'feed' %}">가입</a></button>
         </div>
         <footer class = "joinInsta">
-            <p class = "join" >계정이 있으신가요?<button class = "joinBtn">로그인</button></p>
+            <p class = "join" >계정이 있으신가요?<button class = "joinBtn"><a href="{%url 'login' %}">로그인</a></button></p>
         </footer>
     </body>
 </html>
