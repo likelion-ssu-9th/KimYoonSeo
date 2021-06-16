@@ -74,3 +74,7 @@ input{
     color: rgb(84, 161, 247);
     font-size: 15px;
 }
+
+a {
+    text-decoration: teal;
+}
