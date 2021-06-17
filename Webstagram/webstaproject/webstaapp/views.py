@@ -17,10 +17,10 @@ def login(request):
     if request.method=="POST" :
         username= request.POST['username']
         password= request.POST['password']
-        # user=auth.authenticate(request, username=username, password=password)
+        user=auth.authenticate(request, username=username, password=password)
 
         if username is not None:
-            # auth.login(request, user)
+            auth.login(request, user)
             return redirect('feed')
         else:
             return render(request, 'login.html',{'error' : 'username or password is incorrect. '})
@@ -32,6 +32,7 @@ def signUp(request):
 
 def profile(request):
     return render(request,'profile.html')
+
 
 def create(request):
     new_Feed=Feed()

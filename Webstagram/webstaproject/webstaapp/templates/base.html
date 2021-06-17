@@ -8,10 +8,10 @@
         <link href="{% static 'img/icon.png'%}" rel = "icon"/>
     </head>
     <body>
-        <header>
+        <header class = "top_bar">
             <div class = "left_box">
                 <div class = "favicon_frame">
-                    <img class = "faviconFrame" src="{% static 'img/line_favicon.png'%}" alt="인스타 로고"/>
+                    <a href="{% url 'profile' %}"><img class = "faviconFrame" src="{% static 'img/line_favicon.png'%}" alt="인스타 로고"/></a>
                 </div>
                 <div class = "line">
                     <img class="logo" src="{% static 'img/logo_text.png'%}" alt = "인스타 글씨"/>
@@ -22,7 +22,7 @@
                     <img class = "heart" src="{% static 'img/liked.png'%}" alt = "글 작성" />
                 </div>
                 <div class = "myInfo_box">
-                    <img class = "myInfo" src = "{% static 'img/myinfo.png'%}" alt = "내 프로필"/>
+                    <a href="{% url 'profile' %}"><img class = "myInfo" src = "{% static 'img/myinfo.png'%}" alt = "내 프로필"/></a>
                 </div>
             </div>
         </header>
